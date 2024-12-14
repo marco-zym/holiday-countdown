@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>节日倒计时</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>节日倒计时</h1>
+    <form id="festivalForm">
+        <label for="festivalName">节日名称:</label>
+        <input type="text" id="festivalName" required>
+
+        <label for="festivalDate">节日日期:</label>
+        <input type="date" id="festivalDate" required>
+
+        <button type="submit">添加节日</button>
+    </form>
+
+    <div id="countdownList"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
